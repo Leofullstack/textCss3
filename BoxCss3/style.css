@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.2em;
+    text-transform:capitalize;
+    text-shadow: -7px -7px 6px black;
+    font-family: 'font1';
+    padding: 5px;
+    text-align: center;
+}
+@font-face {
+    font-family: "font1";
+    src: url(assets/Roboto-Bold.ttf);
+}
+
+.container{ 
+    width: 85%;
+    min-height: 500px;
+    background: orangered;
+    margin: 200px auto;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: -4px -4px 3px yellow;
+    padding: 10px;
+
+}
+/* .container-1{
+    background: white;
+    height: 300px;
+    padding: 20px;
+} */
+.grid-bloc{
+    grid-gap: 10px;
+    margin: 100px auto;
+    display: grid;
+    justify-content: center;
+    max-width: 1300px;
+    padding: 0;
+    grid-template-columns: repeat(auto-fill,300px);
+}
+.bloc-item{
+    height: 350px;
+    background: blue;
+    padding: 20px;
+    border: none;
+   border-radius: 5px;
+}
